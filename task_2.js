@@ -42,4 +42,5 @@ function isEven (a){
 isEven(50);
 isEven(75);
 isEven(-1);
+isEven(-15,6);
 
