@@ -22,7 +22,7 @@ characters). Rewrite countBs to make use of this new function.
 */
 
 function countBs (string=''){
-    let counter = 1
+    let counter = 0
     for(let i = 0; i < string.length; i++){
         if(string[i] === "B"){
             counter++;
@@ -32,4 +32,17 @@ function countBs (string=''){
 }
 
 
-countBs("booo");
+countBs("Bu-hahha, Buuu");
+
+function countLetter (string = '', letter = ''){
+    let counter = 0
+    for(let i = 0; i < string.length; i++){
+        if(string[i] === letter){
+            counter++;
+        }
+    }
+    console.log(counter);
+}
+
+
+countLetter("shmebulakmm", "m");
